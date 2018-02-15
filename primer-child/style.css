@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ Theme Name:   Primer Child
+ Theme URI:    http://example.com/primer-child/
+ Description:  Primer Child
+ Author:       Jonas Andersen
+ Author URI:   http://example.com
+ Template:     primer
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  primer-child
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#disclaimer {
+	position: fixed;
+	background-color: black;
+	color: white;
+	width: 100vw;
+	text-align: center;
+	z-index: 999;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.site-title {
+	text-align: center;
+	font-size: 50px;
+}
+.main-navigation { 
+	border-bottom: 5px solid #e8491d;
+	width: 100%;
+}
+
+#page { 
+	background-color: #f4f4f4;
+}
+#primary {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.33);
+}
+.updates-header {
+	text-align: center;
+	font-size: 80px;
+}
+.updates-second-header {
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+	color: grey;
+}
+#box {
+	width: 63.88889%;
+    float: left;
+    margin-left: 1.38889%;
+    margin-right: 1.38889%;
+	background-color: white;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.33);
+	margin-bottom: 5px;
+}
+
+
+.layout-two-column-default .updates-content-area {
+    width: 98%;
+    float: left;
+    margin-left: 1.38889%;
+    margin-right: 1.38889%;
+}
+.wp-image-95 {
+	
+}
