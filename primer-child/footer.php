@@ -45,23 +45,15 @@
 			</div><!-- .site-footer-inner -->
 
 		</footer><!-- #colophon -->
-		<?php
 
-		/**
-		 * Fires after the `<footer>` element.
-		 *
-		 * @hooked primer_add_site_info - 10
-		 *
-		 * @since 1.0.0
-		 */
-		do_action( 'primer_after_footer' );
-
-		?>
+<div class="footerone">
+	<p>
+		Child theme of Primer made by Jonas
+	</p>
+</div>
 
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
 
 </body>
-
-</html>
